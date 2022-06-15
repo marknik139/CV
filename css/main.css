@@ -1,0 +1,98 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+
+* {
+  color: #333333;
+}
+
+h1 {
+  color: #030303;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: #333333;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.photo {
+  margin-top: 1em;
+}
+
+h3 {
+  color: #030303;
+}
+
+a {
+  color: #333333;
+}
+
+a:hover {
+  color: #52a0ff;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts {
+  margin-bottom: 2em;
+}
+
+.contact {
+  display: flex;
+}
+.contact__type {
+  min-width: 100px;
+}
+
+.description {
+  margin-top: 1em;
+}
+
+.experience {
+  display: flex;
+  margin-bottom: 2em;
+}
+.experience__date {
+  text-decoration: underline;
+  min-width: 250px;
+  margin-bottom: 1em;
+}
+.experience__name {
+  font-weight: bold;
+}
+
+.education {
+  display: flex;
+  margin-bottom: 2em;
+}
+.education__date {
+  text-decoration: underline;
+  min-width: 250px;
+  margin-bottom: 1em;
+}
+.education__place {
+  font-weight: bold;
+}
+.education__name {
+  margin-bottom: 1em;
+}
+
+@media (max-width: 575px) {
+  .experience {
+    display: block;
+  }
+
+  .education {
+    display: block;
+  }
+}/*# sourceMappingURL=main.css.map */
